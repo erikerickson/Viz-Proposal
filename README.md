@@ -21,19 +21,29 @@ I have created the first step of the visualization, which was creating a stacked
 ## Questions & Tasks
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
-
+### Questions
  * Are there longitudinal patterns of AP Test taking?
  * Are there AP Performance patterns over time?
  * Are there any notable socio-economic or demographic patterns? (correlations)
  * e.g. Do high test taking schools have relatively high success rates (scores >=3)?
  * Are there any notable geographical patterns associated with test taking or success?
+ 
+ ### Tasks
+ * Need to learn D3 more deeply
+ * Figure out how to create filtering which will be a primary interaction
+ * Identify more data, join data into one dataset (to help answer questions above)
+ * Transform data
 
 ## Sketches
 
+### Stacked Bar Chart
+<img width="414" alt="Screen Shot 2019-09-23 at 9 11 29 PM" src="https://user-images.githubusercontent.com/54564637/65473695-d8ed0600-de46-11e9-826c-dcd9630089e5.png">
 
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
+This is the baseline viz that I have created in Vega Lite.  I will need to take this viz and make it work in D3.  I will then need to visualize just one score, of success rate % on the map.  Once I have this working, adding in additional interactive functionality with filter(s) will be great.  Finding a robust tooltip will be helpful.
+
+### Heat Map of Massachusetts School Districts
+<img width="373" alt="Screen Shot 2019-09-23 at 9 11 37 PM" src="https://user-images.githubusercontent.com/54564637/65473694-d8ed0600-de46-11e9-97b7-2416f09d1d58.png">
 
 ## Open Questions
-
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
+My experience in JS seems to be much thinner than others.  I am struggling with all the jargon that is being thrown around.  
+I am not sure how to connect or implement the topoJSON into my viz or how to add the filtering, which in my mind is key to the success of the propsal.  It is the primary interaction and is critical to answer my proposed questions.
