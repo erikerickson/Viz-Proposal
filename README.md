@@ -22,20 +22,14 @@ I have created the first step of the visualization, which was creating a stacked
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
-
-Are there longitudinal patterns of AP Test taking?
-Are there AP Performance patterns over time?
-Do high test taking schools have relatively high success rates (scores >=3)?
-Are there any notable geographical patterns associated with test taking or success?
-
-
-
+ * Are there longitudinal patterns of AP Test taking?
+ * Are there AP Performance patterns over time?
+ * Are there any notable socio-economic or demographic patterns? (correlations)
+ * e.g. Do high test taking schools have relatively high success rates (scores >=3)?
+ * Are there any notable geographical patterns associated with test taking or success?
 
 ## Sketches
+
 
 (insert one or more hand-drawn sketches of interactive visualizations that you imagine)
 (describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
