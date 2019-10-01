@@ -4,13 +4,15 @@ Work associated with WPI Data Viz class
 ## Data
 
 The data I plan on using for my viz project include:
-* The Massaschusetts Department of Elementary and Secondary Education [(DESE) public data set on Advanced Placement](http://profiles.doe.mass.edu/statereport/ap.aspx) (AP) performance showing the number of students who received each possible score on the Advanced Placement exam for each subject.  This a transformed version of this dataset can be founde [here](https://gist.github.com/erikerickson/c588471f631cd22b6745070eb0adabc0).
+* The Massachusetts Department of Elementary and Secondary Education [(DESE) public data set on Advanced Placement](http://profiles.doe.mass.edu/statereport/ap.aspx) (AP) performance showing the number of students who received each possible score on the Advanced Placement exam for each subject.  This a transformed version of this dataset can be found [here](https://gist.github.com/erikerickson/c588471f631cd22b6745070eb0adabc0).
 
 * The United States Census geographical data of [school districts in Massachusetts (TIGER)](https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2019&layergroup=School+Districts).  This has the shapefiles to create a map of all Massachusetts school districts.
 
 ## Prototypes
 
-I have created the first step of the visualization, which was creating a stacked bar chart of the AP data.  It shows a high-level view of general participation and performance across Massachusetts school districts through time.  My goal will be to create a choropleth map of Massachusetts by school district. I would like to slice on different measures (create a menu) that will answer some of the previously identified questions that I found interesting.
+I have created the first step of the visualization, which was creating a stacked bar chart of the AP data.  It shows a high-level view of general participation and performance across Massachusetts school districts through time.  My goal will be to create a choropleth map of Massachusetts by school district. 
+
+To add interactivity, I would like to slice on different measures similar to what is shown in the [Scatter Plot with Menus](http://bl.ocks.org/curran/8c131a74b85d0bb0246233de2cff3f52/194c2fc143790b937c42bf086a5a44cb3c55340e) example. I would like to create a menu that will answer some of the previously identified questions that I found interesting, mainly those socio-economic and demographic attributes found in some DESE datasets.  Another interesting feature I would like to explore is the use of brushing or animation to help show changes through time.  This may not work with my choropleth map of Massachusetts.
 
 ### Map of MA
 <img width="1440" alt="Screen Shot 2019-09-23 at 8 12 41 PM" src="https://user-images.githubusercontent.com/54564637/65472010-7c3a1d00-de3f-11e9-9491-cf2a8a86c667.png">
@@ -38,12 +40,6 @@ The following tasks and questions will drive the visualization and interaction d
  
  4. e.g. Do high test taking schools have relatively high success rates (scores >=3)?
  5. Are there any notable geographical patterns associated with test taking or success?  Do certain geographical areas have higher levels of participation or success?
- 
- ### Tasks
- * Need to learn D3 more deeply
- * Figure out how to create filtering which will be a primary interaction
- * Identify more data, join data into one dataset (to help answer questions above)
- * Transform data
 
 ## Sketches
 
@@ -58,3 +54,30 @@ This is the baseline viz that I have created in Vega Lite.  I will need to take 
 ## Open Questions
 My experience in JS seems to be much thinner than others.  I am struggling with all the jargon that is being thrown around.  
 I am not sure how to connect or implement the topoJSON into my viz or how to add the filtering, which in my mind is key to the success of the proposal.  It is the primary interaction and is critical to answer my proposed questions.
+
+## Schedule of Deliverables
+
+### Data
+I will do all the processes necessary to acquire and transform the data to be visualized.
+* Identify additional DESE datasets
+* Download from DESE
+* Tranform data if necessary
+* Joing data if necessary
+* Create new Gists, 
+* Upload to datasets to GitHub
+* Document Gists and link back to original datasets
+
+### Viz
+I will create the proposed visualization, adding interactive elements, and complete the project with a write up.
+* Create Cloropleth with Tiger dataset
+* Get one set of data to work with Cloropleth
+* Create Menu interaction for additional data
+* Create Animation (if times allows)
+* Explore data to understand important outcomes
+* Refine viz with colors
+* Writeup (answer questions of proposal and describe the process)
+
+
+
+Add estimated delivery dates for each task. Keep in mind you have 5 weeks for this work.
+
