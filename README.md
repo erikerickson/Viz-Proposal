@@ -57,4 +57,4 @@ This is the baseline viz that I have created in Vega Lite.  I will need to take 
 
 ## Open Questions
 My experience in JS seems to be much thinner than others.  I am struggling with all the jargon that is being thrown around.  
-I am not sure how to connect or implement the topoJSON into my viz or how to add the filtering, which in my mind is key to the success of the propsal.  It is the primary interaction and is critical to answer my proposed questions.
+I am not sure how to connect or implement the topoJSON into my viz or how to add the filtering, which in my mind is key to the success of the proposal.  It is the primary interaction and is critical to answer my proposed questions.
