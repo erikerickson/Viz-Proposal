@@ -59,25 +59,20 @@ I am not sure how to connect or implement the topoJSON into my viz or how to add
 
 ### Data
 I will do all the processes necessary to acquire and transform the data to be visualized.
-* Identify additional DESE datasets
-* Download from DESE
-* Tranform data if necessary
-* Joing data if necessary
-* Create new Gists, 
-* Upload to datasets to GitHub
-* Document Gists and link back to original datasets
+* Identify additional DESE datasets 10/5
+* Download from DESE 10/6
+* Tranform data if necessary 10/8
+* Joing data if necessary 10/10
+* Create new Gists 10/10
+* Upload to datasets to GitHub 10/10
+* Document Gists and link back to original datasets 10/10
 
 ### Viz
 I will create the proposed visualization, adding interactive elements, and complete the project with a write up.
-* Create Cloropleth with Tiger dataset
-* Get one set of data to work with Cloropleth
-* Create Menu interaction for additional data
-* Create Animation (if times allows)
-* Explore data to understand important outcomes
-* Refine viz with colors
-* Writeup (answer questions of proposal and describe the process)
-
-
-
-Add estimated delivery dates for each task. Keep in mind you have 5 weeks for this work.
-
+* Create Cloropleth with Tiger dataset 10/13
+* Get one set of data to work with Cloropleth 10/16
+* Create Menu interaction for additional data 10/20
+* Create Animation (if times allows) 10/24
+* Explore data to understand important outcomes 10/26
+* Refine viz with colors 10/28
+* Writeup (answer questions of proposal and describe the process) 11/1
