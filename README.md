@@ -25,7 +25,7 @@ The following tasks and questions will drive the visualization and interaction d
  1. Are there longitudinal patterns of AP Test taking? e.g. Is there increased test-taking over time?  Are there higher rates of success (qualifying scores) over time?  
  2. Are there any notable socio-economic patterns?
 
-	* Economically Disadvantaged
+ * Economically Disadvantaged
  * Free and Reduced Lunch
 
  3. Are there any notable demographic patterns?
