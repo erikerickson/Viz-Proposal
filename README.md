@@ -8,7 +8,7 @@ The data I plan on using for my viz project include:
 
 * The United States Census geographical data of [school districts in Massachusetts (TIGER)](https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2019&layergroup=School+Districts).  This has the shapefiles to create a map of all Massachusetts school districts.
 
-* Update.  I found the [MassGIS Data: Public School Districts])https://docs.digital.mass.gov/dataset/massgis-data-public-school-districts) to have a better version of the data.  I used MapShaper to visualize the data and this updated datasource looks much better.  The gist can be found [here](https://gist.github.com/erikerickson/c0c1507257636348e4e2302b6aafa9bb).
+* Update.  I found the [MassGIS Data: Public School Districts](https://docs.digital.mass.gov/dataset/massgis-data-public-school-districts) to have a better version of the data.  I used MapShaper to visualize the data and this updated datasource looks much better.  The gist can be found [here](https://gist.github.com/erikerickson/c0c1507257636348e4e2302b6aafa9bb).
 
 ## Prototypes
 
