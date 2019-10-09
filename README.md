@@ -8,6 +8,8 @@ The data I plan on using for my viz project include:
 
 * The United States Census geographical data of [school districts in Massachusetts (TIGER)](https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2019&layergroup=School+Districts).  This has the shapefiles to create a map of all Massachusetts school districts.
 
+* Update.  I found the [MassGIS Data: Public School Districts])https://docs.digital.mass.gov/dataset/massgis-data-public-school-districts) to have a better version of the data.  I used MapShaper to visualize the data and this updated datasource looks much better.
+
 ## Prototypes
 
 I have created the first step of the visualization, which was creating a stacked bar chart of the AP data.  It shows a high-level view of general participation and performance across Massachusetts school districts through time.  My goal will be to create a choropleth map of Massachusetts by school district. 
