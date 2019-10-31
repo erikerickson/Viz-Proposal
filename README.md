@@ -25,6 +25,10 @@ Here is the preview of the Massachusetts School District Retention visualization
 Click on the picture to go to the interactive visualization.
 <img width="1440" alt="Visualization Preview" src="https://user-images.githubusercontent.com/54564637/67971170-a7542100-fbe2-11e9-9ab8-4f6290a085c2.png">(https://beta.vizhub.com/erikerickson/08adfba0890449ad9a89dcc12cd713a2)
 
+### Youtube Video 
+
+[Here is a video](http://www.youtube.com/watch?v=ml6573AeSOI) describing the visualization, the development, and my thoughts on how to improve upon it.
+
 This visuaization shows a geographical representation of school district retention rates.  The interactive element includes two menus that allows users to filter to see one or all years.  The second menu allows a user to filter based upon quartile performance of the district, options include: all quartiles or one of the four.
 
 ### Map of MA
