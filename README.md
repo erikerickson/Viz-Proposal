@@ -23,7 +23,7 @@ The [gist with all data can be found here.](https://gist.github.com/erikerickson
 Here is the preview of the Massachusetts School District Retention visualization.
 
 Click on the picture to go to the interactive visualization.
-<img width="1440" alt="Visualization Preview" src="https://user-images.githubusercontent.com/54564637/67971170-a7542100-fbe2-11e9-9ab8-4f6290a085c2.png">(https://beta.vizhub.com/erikerickson/08adfba0890449ad9a89dcc12cd713a2)
+[<img width="1440" alt="Visualization Preview" src="https://user-images.githubusercontent.com/54564637/67971170-a7542100-fbe2-11e9-9ab8-4f6290a085c2.png">](https://beta.vizhub.com/erikerickson/08adfba0890449ad9a89dcc12cd713a2)
 
 ### Youtube Video 
 
