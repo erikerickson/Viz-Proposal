@@ -49,10 +49,12 @@ The following tasks and questions drove the visualization and interaction decisi
 
 ### Stacked Bar Chart
 This is a sketch of what an initial bar chart visualization may look like.
+
 <img width="414" alt="Screen Shot 2019-09-23 at 9 11 29 PM" src="https://user-images.githubusercontent.com/54564637/65473695-d8ed0600-de46-11e9-826c-dcd9630089e5.png">
 
 ### Bubble Map of Massachusetts School Districts
 This is a sketch of an initial Geo Bubble Map may look like.
+
 <img width="373" alt="Screen Shot 2019-09-23 at 9 11 37 PM" src="https://user-images.githubusercontent.com/54564637/65473694-d8ed0600-de46-11e9-97b7-2416f09d1d58.png">
 
 ## Open Questions
