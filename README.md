@@ -1,5 +1,5 @@
 # Data Visualization of Massachusetts School District Retention Rates
-WPI Data Viz class finali project
+WPI Data Viz class final project
 
 ## Data
 
