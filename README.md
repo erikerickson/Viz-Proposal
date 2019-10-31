@@ -1,26 +1,38 @@
-# Data Visualization Project Proposal
-Work associated with WPI Data Viz class
+# Data Visualization of Massachusetts School District Retention Rates
+WPI Data Viz class finali project
 
 ## Data
 
-The data I plan on using for my viz project include:
-* The Massachusetts Department of Elementary and Secondary Education [(DESE) public data set on Advanced Placement](http://profiles.doe.mass.edu/statereport/ap.aspx) (AP) performance showing the number of students who received each possible score on the Advanced Placement exam for each subject.  This a transformed version of this dataset can be found [here](https://gist.github.com/erikerickson/c588471f631cd22b6745070eb0adabc0).
+The data I used for this visualization include:
 
-* The United States Census geographical data of [school districts in Massachusetts (TIGER)](https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2019&layergroup=School+Districts).  This has the shapefiles to create a map of all Massachusetts school districts.
+* A Massaschusetts Department of Elementary and Secondary Education [(DESE) public data set on student retention](http://profiles.doe.mass.edu/statereport/retention.aspx).  This report presents data on grade retention rates in Massachusetts public schools. The Massachusetts Department of Elementary and Secondary Education defines a student retention as: a student who was reported to have repeated the grade in which he or she was enrolled during the previous school year.
 
-* Update.  I found the [MassGIS Data: Public School Districts](https://docs.digital.mass.gov/dataset/massgis-data-public-school-districts) to have a better version of the data.  I used MapShaper to visualize the data and this updated datasource looks much better.  The gist can be found [here](https://gist.github.com/erikerickson/c0c1507257636348e4e2302b6aafa9bb).
+I processed the data by combining all available years into one dataset (2009-2018), removed non-targeted columns of data.  Additionally, I did a lookup between school district and city.  All those schools with unassociated towns (e.g. virtual schools) were removed.  Lastly, I calculated the dataset's quartiles and assigned each row to a quartile.
 
-## Prototypes
 
-I have created the first step of the visualization, which was creating a stacked bar chart of the AP data.  It shows a high-level view of general participation and performance across Massachusetts school districts through time.  My goal will be to create a choropleth map of Massachusetts by school district. 
+* The Massachusetts GeoJSON data can be found [here.](https://docs.digital.mass.gov/dataset/massgis-data-community-boundaries-towns-survey-points)
 
-To add interactivity, I would like to slice on different measures similar to what is shown in the [Scatter Plot with Menus](http://bl.ocks.org/curran/8c131a74b85d0bb0246233de2cff3f52/194c2fc143790b937c42bf086a5a44cb3c55340e) example. I would like to create a menu that will answer some of the previously identified questions that I found interesting, mainly those socio-economic and demographic attributes found in some DESE datasets.  Another interesting feature I would like to explore is the use of brushing or animation to help show changes through time.  This may not work with my choropleth map of Massachusetts.
+[Click to download](https://docs.digital.mass.gov/dataset/massgis-data-community-boundaries-towns-survey-points)
+
+The [Mapshaper utility](https://mapshaper.org/) was used to convert the data.  GeoJson was imported, simplified, repaired, and exported to TopoJSON for use in [my VizHub account.](https://beta.vizhub.com/erikerickson)
+
+The [gist will all data can be found here.](https://gist.github.com/erikerickson/4878febf8be358351aac34a29a63372a)
+
+## Current Visualization
+
+Here is the preview of the Massachusetts School District Retention visualization.
+<img width="1440" alt="Visualization Preview" src="https://user-images.githubusercontent.com/54564637/67971170-a7542100-fbe2-11e9-9ab8-4f6290a085c2.png">
+
+This visuaization shows a geographical representation of school district retention rates.  The interactive element includes two menus that allows users to filter to see one or all years.  The second menu allows a user to filter based upon quartile performance of the district, options include: all quartiles or one of the four.
 
 ### Map of MA
+Here was in initial rendering of the Massachusetts School District json file using the MapShaper utility.
 <img width="1440" alt="Screen Shot 2019-09-23 at 8 12 41 PM" src="https://user-images.githubusercontent.com/54564637/65472010-7c3a1d00-de3f-11e9-9491-cf2a8a86c667.png">
 
-### Prototype Stacked Bar Chart
-[<img width="960" alt="Screen Shot 2019-09-23 at 8 11 35 PM" src="https://user-images.githubusercontent.com/54564637/65472011-7c3a1d00-de3f-11e9-9dee-6533dcb1e96c.png">](https://beta.vizhub.com/erikerickson/994860e04695449fb499a3e36828e940)
+### Prototype Scatter Plot
+Here was an initial scatter plot visualization that used the same public DESE dataset on school district retention rates.  This does not use the GeoJSON to visualize the data in a geographical way.
+
+[<img width="960" alt="Visualization Prototype" src="https://user-images.githubusercontent.com/54564637/67972855-d8822080-fbe5-11e9-92e6-80fc72aed21c.png">](https://beta.vizhub.com/erikerickson/a62de7dcc3fb4677ac47330d95254e08?mode=full)
 
 ## Questions & Tasks
 
@@ -78,3 +90,9 @@ I will create the proposed visualization, adding interactive elements, and compl
 * Explore data to understand important outcomes 10/26
 * Refine viz with colors 10/28
 * Writeup (answer questions of proposal and describe the process) 11/1
+
+## Future Work
+* My goal will be to create a choropleth map of Massachusetts by school district. 
+* Another interesting feature I would like to explore is the use of brushing or animation to help show changes through time.
+* I would like to consider adding animation to the marks similar to this [example](http://bl.ocks.org/curran/8c131a74b85d0bb0246233de2cff3f52/194c2fc143790b937c42bf086a5a44cb3c55340e)
+
