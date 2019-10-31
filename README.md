@@ -21,6 +21,8 @@ The [gist with all data can be found here.](https://gist.github.com/erikerickson
 ## Current Visualization
 
 Here is the preview of the Massachusetts School District Retention visualization.
+
+Click on the picture to go to the interactive visualization.
 <img width="1440" alt="Visualization Preview" src="https://user-images.githubusercontent.com/54564637/67971170-a7542100-fbe2-11e9-9ab8-4f6290a085c2.png">
 
 This visuaization shows a geographical representation of school district retention rates.  The interactive element includes two menus that allows users to filter to see one or all years.  The second menu allows a user to filter based upon quartile performance of the district, options include: all quartiles or one of the four.
